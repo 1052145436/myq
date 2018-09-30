@@ -194,7 +194,7 @@ html,body{
             overflow:hidden;
             float:left;
             img{
-              width:px2rem(80);
+              width:px2rem(70);
               height:auto;
               vertical-align: middle;
             }
@@ -377,10 +377,10 @@ html,body{
         text-align:center;
         color:#fff;
         font-size:px2rem(24);
-        background:-webkit-linear-gradient(left,#f6287b,#eb295e);
-        background:-o-linear-gradient(right,#f6287b,#eb295e);
-        background:-moz-linear-gradient(right,#f6287b,#eb295e);
-        background:linear-gradient(to right,#f6287b,#eb295e);
+        background:-webkit-linear-gradient(left,#eb295f,#eb295e);
+        background:-o-linear-gradient(right,#eb295f,#eb295e);
+        background:-moz-linear-gradient(right,#eb295f,#eb295e);
+        background:linear-gradient(to right,#eb295f,#eb295e);
         -webkit-border-radius: px2rem(20);
         -moz-border-radius: px2rem(20);
         border-radius: px2rem(20);
