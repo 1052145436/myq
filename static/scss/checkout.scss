@@ -291,6 +291,10 @@ html,body{
           font-size:px2rem(22);
           line-height:px2rem(22);
           font-weight: 500;
+          i{
+            margin-left:10px;
+            color:#9a9a9a;
+          }
         }
       }
       ul{
@@ -349,6 +353,11 @@ html,body{
         color:#f62800;
         right:px2rem(40);
         top:px2rem(16);
+
+        i{
+          margin-left:px2rem(10);
+          color:#fb2d05;
+        }
       }
     }
     .sure-pay-box{
