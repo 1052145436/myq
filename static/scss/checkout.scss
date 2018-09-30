@@ -332,6 +332,25 @@ html,body{
         }
       }
     }
+    .coupon-tip{
+      position:relative;
+      background-color: #fff3cd;
+      text-align:left;
+      font-size:px2rem(18);
+      line-height:px2rem(18);
+      padding:px2rem(18) 0 px2rem(18) px2rem(40);
+      color:#25261e;
+      span{
+        color:#f62800;
+        margin:auto px2rem(14);
+      }
+      em{
+        position:absolute;
+        color:#f62800;
+        right:px2rem(40);
+        top:px2rem(16);
+      }
+    }
     .sure-pay-box{
       background-color: #f1f1f1;
       padding:px2rem(30) px2rem(20);
