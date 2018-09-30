@@ -41,40 +41,41 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1387" />
+          <entry key="html" value="1389" />
           <entry key="less" value="188" />
-          <entry key="scss" value="3865" />
+          <entry key="scss" value="3980" />
+          <entry key="txt" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1387" />
+          <entry key="HTML" value="1389" />
           <entry key="Less" value="188" />
-          <entry key="SCSS" value="3865" />
+          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="SCSS" value="3980" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flash/checkout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+            <state relative-caret-position="216">
+              <caret line="106" column="44" lean-forward="true" selection-start-line="106" selection-start-column="44" selection-end-line="106" selection-end-column="44" />
               <folding>
                 <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/scss/checkout.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="254">
-              <caret line="290" column="17" lean-forward="true" selection-start-line="290" selection-start-column="17" selection-end-line="290" selection-end-column="17" />
+              <caret line="292" column="24" selection-start-line="292" selection-start-column="24" selection-end-line="292" selection-end-column="24" />
               <folding>
                 <element signature="e#222#232#0" />
                 <element signature="e#831#1581#0" />
@@ -104,6 +105,8 @@
       <find>.list</find>
       <find>clearfix</find>
       <find>coupon-box</find>
+      <find>coup-</find>
+      <find>2%</find>
     </findStrings>
     <replaceStrings>
       <replace>@s3Height</replace>
@@ -123,8 +126,8 @@
         <option value="$PROJECT_DIR$/static/scss/common.scss" />
         <option value="$PROJECT_DIR$/static/scss/index.scss" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/static/scss/checkout.scss" />
         <option value="$PROJECT_DIR$/flash/checkout.html" />
+        <option value="$PROJECT_DIR$/static/scss/checkout.scss" />
       </list>
     </option>
   </component>
@@ -135,8 +138,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="57" />
-    <option name="y" value="458" />
+    <option name="x" value="144" />
+    <option name="y" value="299" />
     <option name="width" value="1661" />
     <option name="height" value="849" />
   </component>
@@ -233,15 +236,23 @@
       <option name="presentableId" value="Default" />
       <updated>1538272244928</updated>
       <workItem from="1538272246166" duration="1940000" />
-      <workItem from="1538274191450" duration="10716000" />
+      <workItem from="1538274191450" duration="11234000" />
     </task>
+    <task id="LOCAL-00001" summary="【提交】复合单页逻辑修改。">
+      <created>1538290876589</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1538290876589</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12656000" />
+    <option name="totallyTimeSpent" value="13174000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="458" width="1661" height="849" extended-state="0" />
+    <frame x="222" y="337" width="1661" height="849" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14178638" />
@@ -270,6 +281,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="【提交】复合单页逻辑修改。" />
+    <option name="LAST_COMMIT_MESSAGE" value="【提交】复合单页逻辑修改。" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/static/less/book.less" />
@@ -334,27 +349,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/flash/checkout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="106" column="44" lean-forward="true" selection-start-line="106" selection-start-column="44" selection-end-line="106" selection-end-column="44" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/scss/checkout.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
-          <caret line="290" column="17" lean-forward="true" selection-start-line="290" selection-start-column="17" selection-end-line="290" selection-end-column="17" />
+          <caret line="292" column="24" selection-start-line="292" selection-start-column="24" selection-end-line="292" selection-end-column="24" />
           <folding>
             <element signature="e#222#232#0" />
             <element signature="e#831#1581#0" />
             <element signature="e#1520#1557#0" />
             <element signature="e#3917#3931#0" />
             <element signature="e#4583#4609#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flash/checkout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>

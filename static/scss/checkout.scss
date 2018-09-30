@@ -234,8 +234,8 @@ html,body{
               border-radius: px2rem(16);
               font-size:px2rem(14);
               line-height:px2rem(14);
-              color:#f9037e;
-              border:1px solid #f9037e;
+              color:#f70573;
+              border:1px solid #fc0270;
               margin-right:px2rem(30);
             }
 
@@ -257,7 +257,41 @@ html,body{
     .coupon-box{
       background-color: #fff;
       .coupon-title{
+        clear:both;
+        border-bottom:1px solid #f1f1f1;
+        padding:px2rem(30);
 
+        .coup-title{
+          width:40%;
+          height:auto;
+          float:left;
+          font-size:px2rem(22);
+          line-height:px2rem(22);
+          color:#232323;
+
+          span{
+            display:inline-block;
+            padding:px2rem(8) px2rem(16);
+            -webkit-border-radius: px2rem(16);
+            -moz-border-radius: px2rem(16);
+            border-radius: px2rem(16);
+            font-size:px2rem(14);
+            line-height:px2rem(14);
+            color:#f70573;
+            border:1px solid #fc0270;
+            margin-left:px2rem(10);
+          }
+        }
+
+        .coup-cost{
+          width:60%;
+          float:right;
+          text-align:right;
+          color:#282828;
+          font-size:px2rem(22);
+          line-height:px2rem(22);
+          font-weight: 500;
+        }
       }
       ul{
         li{
@@ -292,7 +326,7 @@ html,body{
               color:#ff0068;
             }
             em{
-              font-weight:400;
+              font-weight:800;
             }
           }
         }
