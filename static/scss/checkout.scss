@@ -254,6 +254,50 @@ html,body{
         }
       }
     }
+    .coupon-box{
+      background-color: #fff;
+      .coupon-title{
+
+      }
+      ul{
+        li{
+          clear:both;
+          padding:px2rem(30);
+          .title{
+            width:25%;
+            height:auto;
+            float:left;
+            font-size:px2rem(22);
+            line-height:px2rem(22);
+            color:#232323;
+          }
+          .cost{
+            width:75%;
+            float:right;
+            text-align:right;
+            color:#282828;
+            font-size:px2rem(22);
+            line-height:px2rem(22);
+            label{
+              display:inline-block;
+              color:#fc2d00;
+              background-color: #faefcf;
+              padding:px2rem(6) px2rem(10);
+              -webkit-border-radius: px2rem(4);
+              -moz-border-radius: px2rem(4);
+              border-radius: px2rem(4);
+              margin-right:px2rem(16);
+            }
+            span{
+              color:#ff0068;
+            }
+            em{
+              font-weight:400;
+            }
+          }
+        }
+      }
+    }
     .sure-pay-box{
       background-color: #f1f1f1;
       padding:px2rem(30) px2rem(20);
