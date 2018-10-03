@@ -40,7 +40,7 @@ html,body{
 
     p{
       width:100%;
-      height:90px;
+      height:px2rem(90);
       line-height:px2rem(90);
       color:#272727;
       text-align:center;
@@ -50,6 +50,60 @@ html,body{
   }
 
   .checkout-inner{
+    .address-list{
+      position:relative;
+      width:100%;
+      height:auto;
+      margin-bottom:px2rem(10);
+      a{
+        position:absolute;
+        display:block;
+        left:0;
+        top:0;
+        width:100%;
+        height:100%;
+        background-color:rgba(0,0,0,0);
+        z-index:2;
+      }
+      .address-detail{
+        position:relative;
+        padding:px2rem(30) px2rem(80);
+        background-color: #fff;
+        h3{
+          color:#222;
+          font-weight:600;
+          text-align:left;
+          font-size:px2rem(24);
+          line-height:px2rem(44);
+        }
+        p{
+          color:#222;
+          font-size:px2rem(18);
+          line-height:px2rem(36);
+          font-weight:200;
+        }
+        img{
+          position:absolute;
+          width:auto;
+          height:px2rem(28);
+          left:px2rem(30);
+          top:50%;
+          margin-top:px2rem(-14);
+        }
+        i{
+          position:absolute;
+          color:#9b9b9b;
+          right:px2rem(30);
+          top:50%;
+          margin-top:px2rem(-12);
+        }
+      }
+      .foot-bar{
+        width:100%;
+        height:px2rem(8);
+        background:url('https://img-ec.youcdn.net/b1/0a/b10aed1df712e9936b5811e2527f6fca.png!medium.jpg') repeat-x;
+      }
+    }
     .product-list{
       background-color: #fff;
       .title-bar{
