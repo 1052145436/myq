@@ -74,11 +74,23 @@ html,body{
 
           i{
             margin-left:px2rem(16);
+            -webkit-transition:all 0.5s;
+            -moz-transition:all 0.5s;
+            -o-transition:all 0.5s;
+          }
+
+          .rotateIcon{
+            transform:rotate(-90deg);
+            -ms-transform:rotate(-90deg);
+            -moz-transform:rotate(-90deg);
+            -webkit-transform:rotate(-90deg);
+            -o-transform:rotate(-90deg);
           }
         }
         border-bottom:1px solid #f1f1f1;
       }
       ul{
+        display:none;
         li{
           position:relative;
           padding:px2rem(30);

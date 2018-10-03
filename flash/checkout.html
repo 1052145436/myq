@@ -27,13 +27,13 @@
     </div>
     <div class="checkout-inner">
         <div class="product-list">
-            <div class="title-bar">
+            <div class="title-bar" id="product-list-title-bar">
                 <p>Product list(2)</p>
-                <div class="showOrNotBtn">
-                    收起<i class="fa fa-angle-down"></i>
+                <div class="showOrNotBtn" id="showOrNotBtn">
+                    <span>展开</span><i class="fa fa-angle-right"></i>
                 </div>
             </div>
-            <ul>
+            <ul id="product-list-ul">
                 <li>
                     <div class="list-item-box">
                         <div class="img-box">
@@ -141,10 +141,10 @@
     </div>
 
     <div class="add-more-goods" id="add-more-goods">
-        <div class="mask-bg"></div>
+        <div class="mask-bg add-more-goods-closeBtn"></div>
         <div class="add-item-list-box">
             <div class="add-item-head">
-                <i class="fa fa-close" id="add-more-goods-closeBtn"></i>
+                <i class="fa fa-close add-more-goods-closeBtn"></i>
                 <h1>Buy<span>RM64.00</span>more to enjoy FREE Shipping</h1>
             </div>
             <div class="list-box">
