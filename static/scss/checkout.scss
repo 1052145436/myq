@@ -422,43 +422,54 @@ html,body{
       overflow:auto;
       background-color: #fff;
 
-      .fa-close{
-        position:absolute;
-        right:px2rem(30);
-        top:px2rem(36);
-        font-size:px2rem(30);
-        color:#9b9b9b;
-        -webkit-text-stroke: 1px #fff;
-      }
+      .add-more-head{
+        position:fixed;
+        left:0;
+        top:30%;
+        width:100%;
+        height:px2rem(110);
+        background-color: #fff;
+        h1{
+          font-size:px2rem(20);
+          line-height:px2rem(20);
+          padding:px2rem(42) px2rem(30);
+          text-align:center;
+          color:#2b2b2b;
+          border-bottom:1px solid #f0f0f0;
+          font-weight:600;
 
-      h1{
-        font-size:px2rem(20);
-        line-height:px2rem(20);
-        padding:px2rem(42) px2rem(30);
-        text-align:center;
-        color:#2b2b2b;
-        border-bottom:1px solid #f0f0f0;
-        font-weight:600;
+          span{
+            color:#fb2900;
+            margin:0px px2rem(20);
+          }
 
-        span{
-          color:#fb2900;
-          margin:0px px2rem(20);
         }
-
+        .fa-close{
+          position:absolute;
+          right:px2rem(30);
+          top:px2rem(36);
+          font-size:px2rem(30);
+          color:#9b9b9b;
+          -webkit-text-stroke: 1px #fff;
+        }
       }
       ul{
         width:100%;
         padding:px2rem(30);
+        margin-top:px2rem(110);
         li{
           width:50%;
           float:left;
           overflow:hidden;
+          margin-bottom:px2rem(30);
 
           .item{
             position:relative;
-            width:90%;
+            width:80%;
+            margin-left:10%;
+            margin-right:10%;
 
-            .img-box{
+            .goods-img-box{
               position:relative;
               width:100%;
               height:px2rem(230);
@@ -472,7 +483,7 @@ html,body{
               }
             }
 
-            .price-box{
+            .goods-price-box{
               padding:px2rem(10) 0px;
               .price{
                 font-size:px2rem(18);
@@ -510,8 +521,8 @@ html,body{
 
                 .shopping-car{
                   position:absolute;
-                  right:px2rem(34);
-                  top:px2rem(10);
+                  right:px2rem(10);
+                  bottom:0px;
                   width:px2rem(40);
                   height:px2rem(40);
                   img{
