@@ -10,7 +10,19 @@ var checkoutObj = {
             // 函数功能定义
             var commonObj = {
                 initUI:function(){
-
+                    // 添加更多商品
+                    $('#coupon-tip').click(function(){
+                        $('#add-more-goods').show();
+                        $('body').css({
+                            'overflow-y':'hidden'
+                        });
+                    });
+                    $('#add-more-goods-closeBtn').click(function(){
+                        $('#add-more-goods').hide();
+                        $('body').css({
+                            'overflow-y':'auto'
+                        });
+                    });
                 }
             }
             // 执行函数
