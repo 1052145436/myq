@@ -31,8 +31,7 @@ html,body{
       margin-top:px2rem(-20);
       background-color: rgba(0,0,0,0);
       i{
-        width:px2rem(20);
-        height:auto;
+        vertical-align:middle;
         font-size:px2rem(20);
         color:#272727;
       }
@@ -262,7 +261,7 @@ html,body{
             overflow:hidden;
             float:left;
             img{
-              width:px2rem(70);
+              width:px2rem(60);
               height:auto;
               vertical-align: middle;
             }
@@ -331,11 +330,11 @@ html,body{
         clear:both;
         border-bottom:1px solid #f1f1f1;
         padding:px2rem(30);
+        position:relative;
 
         .coup-title{
-          width:40%;
+          width:100%;
           height:auto;
-          float:left;
           font-size:px2rem(22);
           line-height:px2rem(22);
           color:#232323;
@@ -355,13 +354,14 @@ html,body{
         }
 
         .coup-cost{
-          width:60%;
-          float:right;
-          text-align:right;
+          position:absolute;
+          right:px2rem(30);
           color:#282828;
           font-size:px2rem(22);
           line-height:px2rem(22);
           font-weight: 500;
+          top:50%;
+          margin-top:px2rem(-11);
           i{
             margin-left:10px;
             color:#9a9a9a;
@@ -529,25 +529,21 @@ html,body{
         height:100%;
         overflow:auto;
         padding-bottom:px2rem(120);
-        ul{
+        .add-more-ul{
           width:100%;
           padding:px2rem(30);
-          li{
+          .add-more-li{
             position:relative;
             width:50%;
             float:left;
             overflow:hidden;
             margin-bottom:px2rem(40);
-            //width:46%;
-            //border:1px solid #f1f1f1;
-            //margin-left:2%;
-            //margin-right:2%;
 
             .goods-discut-box{
               position:absolute;
               z-index:2;
               top:0;
-              right:px2rem(34);
+              right:px2rem(33);
               width:px2rem(60);
               height:px2rem(60);
               .img-box{
@@ -579,6 +575,7 @@ html,body{
               width:80%;
               margin-left:10%;
               margin-right:10%;
+              overflow:hidden;
               .goods-img-box{
                 position:relative;
                 width:100%;
