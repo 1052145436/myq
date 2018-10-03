@@ -521,11 +521,15 @@ html,body{
                   position:relative;
                   padding:px2rem(10) 0px;
                   line-height:px2rem(32);
-                  .fa-heart-o{
+                  .fa-heart-o,.fa-heart{
                     font-size:px2rem(32);
                     margin-left:px2rem(2);
-                    //color:#000;
-                    //-webkit-text-stroke: 1px #fff;
+                  }
+                  .fa-heart-o{
+                    color:#4d4d4d;
+                  }
+                  .fa-heart{
+                    color:#e92662;
                   }
                   span{
                     position:relative;
