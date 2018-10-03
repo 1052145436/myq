@@ -477,32 +477,63 @@ html,body{
           width:100%;
           padding:px2rem(30);
           li{
+            position:relative;
             width:50%;
             float:left;
             overflow:hidden;
-            margin-bottom:px2rem(30);
-            width:46%;
-            border:1px solid #f1f1f1;
-            margin-left:2%;
-            margin-right:2%;
+            margin-bottom:px2rem(40);
+            //width:46%;
+            //border:1px solid #f1f1f1;
+            //margin-left:2%;
+            //margin-right:2%;
+
+            .goods-discut-box{
+              position:absolute;
+              z-index:2;
+              top:0;
+              right:px2rem(34);
+              width:px2rem(60);
+              height:px2rem(60);
+              .img-box{
+                position:absolute;
+                width:px2rem(60);
+                height:px2rem(60);
+                right:0;
+                top:0;
+
+                img{
+                  width:px2rem(60);
+                  height:auto;
+                  vertical-align: top;
+                }
+              }
+
+              .discut-txt{
+                position:relative;
+                width:100%;
+                font-size:px2rem(18);
+                line-height:px2rem(36);
+                text-align:center;
+                color:#fff;
+              }
+            }
 
             .item{
               position:relative;
               width:80%;
               margin-left:10%;
               margin-right:10%;
-
               .goods-img-box{
                 position:relative;
                 width:100%;
-                height:px2rem(230);
-                line-height:px2rem(230);
+                height:px2rem(280);
+                line-height:px2rem(280);
                 overflow:hidden;
                 text-align:center;
                 img{
-                  width:auto;
-                  height:100%;
-                  vertical-align: middle;
+                  width:100%;
+                  height:auto;
+                  vertical-align: top;
                 }
               }
 
