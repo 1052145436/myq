@@ -27,13 +27,13 @@ var checkoutObj = {
 
                     // 添加更多商品
                     $('#coupon-tip').click(function(){
-                        $('#add-more-goods').stop().fadeIn();
+                        $('#add-more-goods').show();
                         $('body').css({
                             'overflow-y':'hidden'
                         });
                     });
                     $('.add-more-goods-closeBtn').click(function(){
-                        $('#add-more-goods').stop().fadeOut();
+                        $('#add-more-goods').hide();
                         $('body').css({
                             'overflow-y':'auto'
                         });
