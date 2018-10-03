@@ -4,9 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/static/scss/checkout.scss" line="420" mnemonic="5" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c60c61ff-a121-41c4-9870-553e06448937" name="Default Changelist" comment="【提交】单页逻辑修改。">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="c60c61ff-a121-41c4-9870-553e06448937" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/checkout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/checkout.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
           <entry key="html" value="2281" />
           <entry key="js" value="784" />
           <entry key="less" value="188" />
-          <entry key="scss" value="7007" />
+          <entry key="scss" value="7018" />
           <entry key="txt" value="16" />
         </counts>
       </usages-collector>
@@ -61,7 +61,7 @@
           <entry key="JavaScript" value="784" />
           <entry key="Less" value="188" />
           <entry key="PLAIN_TEXT" value="37" />
-          <entry key="SCSS" value="7007" />
+          <entry key="SCSS" value="7018" />
         </counts>
       </usages-collector>
     </session>
@@ -95,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/scss/checkout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="473" column="35" lean-forward="true" selection-start-line="473" selection-start-column="35" selection-end-line="473" selection-end-column="35" />
+            <state relative-caret-position="170">
+              <caret line="550" column="38" selection-start-line="550" selection-start-column="38" selection-end-line="550" selection-end-column="38" />
               <folding>
                 <element signature="e#223#878#0" />
                 <element signature="e#897#9378#0" />
@@ -108,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="102" column="6" selection-start-line="102" selection-start-column="6" selection-end-line="102" selection-end-column="6" />
+            <state relative-caret-position="225">
+              <caret line="92" column="14" lean-forward="true" selection-start-line="92" selection-start-column="14" selection-end-line="92" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -199,8 +199,8 @@
         <option value="$PROJECT_DIR$/static/js/checkout.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/flash/checkout.html" />
-        <option value="$PROJECT_DIR$/static/scss/checkout.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/static/scss/checkout.scss" />
       </list>
     </option>
   </component>
@@ -211,8 +211,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="617" />
-    <option name="y" value="206" />
+    <option name="x" value="633" />
+    <option name="y" value="165" />
     <option name="width" value="1661" />
     <option name="height" value="849" />
   </component>
@@ -318,7 +318,7 @@
       <updated>1538272244928</updated>
       <workItem from="1538272246166" duration="1940000" />
       <workItem from="1538274191450" duration="15322000" />
-      <workItem from="1538298932920" duration="12291000" />
+      <workItem from="1538298932920" duration="12359000" />
     </task>
     <task id="LOCAL-00001" summary="【提交】复合单页逻辑修改。">
       <created>1538290876589</created>
@@ -439,14 +439,21 @@
       <option name="project" value="LOCAL" />
       <updated>1538538706737</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="【提交】单页逻辑修改。">
+      <created>1538538753685</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1538538753685</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29553000" />
+    <option name="totallyTimeSpent" value="29621000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="617" y="206" width="1661" height="849" extended-state="0" />
+    <frame x="633" y="165" width="1661" height="849" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14366022" />
@@ -563,21 +570,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="92" column="14" lean-forward="true" selection-start-line="92" selection-start-column="14" selection-end-line="92" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/scss/checkout.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="473" column="35" lean-forward="true" selection-start-line="473" selection-start-column="35" selection-end-line="473" selection-end-column="35" />
+        <state relative-caret-position="170">
+          <caret line="550" column="38" selection-start-line="550" selection-start-column="38" selection-end-line="550" selection-end-column="38" />
           <folding>
             <element signature="e#223#878#0" />
             <element signature="e#897#9378#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="102" column="6" selection-start-line="102" selection-start-column="6" selection-end-line="102" selection-end-column="6" />
         </state>
       </provider>
     </entry>
