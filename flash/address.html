@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>fis3_复合网</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta content="telephone=no" name="format-detection" />
+    <meta name="format-detection" content="email=no" />
+
+    <link rel="icon" href="./static/images/common/favicon.ico" mce_href="./static/images/common/favicon.ico" type="image/x-icon">
+    <meta name="hotcss" content="initial-dpr=1">
+    <meta name="hotcss" content="max-width=750">
+    <meta name="hotcss" content="design-width=750">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="../static/scss/checkout.scss"/>
+    <script src="./static/plugins/hotcss.js"></script><!--ignore-->
+</head>
+<body>
+
+<div class="flash-checkout-w">
+    <div class="header">
+        <a href="javascript:history.go(-1);" class="goBackBtn">
+            <i class="fa fa-angle-left"></i>
+        </a>
+        <p>Checkout Out</p>
+    </div>
+</div>
+
+<script src="../static/plugins/mod.js"></script>
+<script type="text/javascript">
+    require(['../static/js/checkout'],function(checkoutObjJs){
+        checkoutObjJs.checkoutObj.init();
+    });
+</script>
+
+</body>
+</html>
