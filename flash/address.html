@@ -13,24 +13,78 @@
     <meta name="hotcss" content="max-width=750">
     <meta name="hotcss" content="design-width=750">
     <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
-    <link rel="stylesheet" href="../static/scss/checkout.scss"/>
+    <link rel="stylesheet" href="../static/scss/address.scss"/>
     <script src="./static/plugins/hotcss.js"></script><!--ignore-->
 </head>
 <body>
 
-<div class="flash-checkout-w">
+<div class="flash-address-w">
     <div class="header">
         <a href="javascript:history.go(-1);" class="goBackBtn">
             <i class="fa fa-angle-left"></i>
         </a>
-        <p>Checkout Out</p>
+        <p>Add Address</p>
+    </div>
+    <div class="flash-add-inner">
+        <ul>
+            <li>
+                <div class="left">Name：</div>
+                <div class="right">
+                    <input type="text" value="Simon">
+                </div>
+                <div class="clearfix"></div>
+            </li>
+            <li>
+                <div class="left">Country：</div>
+                <div class="right">
+                    <input type="text" value="China">
+                </div>
+                <div class="clearfix"></div>
+            </li>
+            <li>
+                <div class="left">State/Province：</div>
+                <div class="right">
+                    <input type="text" value="Guangdong">
+                </div>
+                <div class="clearfix"></div>
+            </li>
+            <li>
+                <div class="left">City：</div>
+                <div class="right">
+                    <input type="text" value="Guangzhou">
+                </div>
+                <div class="clearfix"></div>
+            </li>
+            <li>
+                <div class="left">Address：</div>
+                <div class="right">
+                    <textarea cols="5">Huaqiang road,poly clovis building</textarea>
+                </div>
+                <div class="clearfix"></div>
+            </li>
+            <li>
+                <div class="left">Post Code：</div>
+                <div class="right">
+                    <input type="text" value="51000">
+                </div>
+                <div class="clearfix"></div>
+            </li>
+            <li>
+                <div class="left">Phone AE+00971：</div>
+                <div class="right">
+                    <input type="text" value="18851128888">
+                </div>
+                <div class="clearfix"></div>
+            </li>
+        </ul>
+        <div class="flash-add-saveBtn">Save</div>
     </div>
 </div>
 
 <script src="../static/plugins/mod.js"></script>
 <script type="text/javascript">
-    require(['../static/js/checkout'],function(checkoutObjJs){
-        checkoutObjJs.checkoutObj.init();
+    require(['../static/js/checkout'],function(addressJs){
+        addressJs.addressObj.init();
     });
 </script>
 
