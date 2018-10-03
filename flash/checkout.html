@@ -139,11 +139,34 @@
             </div>
         </div>
     </div>
+
+    <div class="add-more-goods">
+        <div class="mask-bg"></div>
+        <div class="add-item-list-box">
+            <i class="fa fa-close"></i>
+            <h1>Buy<span>RM64.00</span>more to enjoy FREE Shipping</h1>
+            <ul>
+                <li>
+                    <div class="item">
+                        <div class="img-box">
+                            <img src="http://img12.360buyimg.com/n1/s190x190_jfs/t1/4083/15/6273/144754/5ba21d3fE6d58def4/590dd177c58203f3.jpg" alt="">
+                        </div>
+                        <div class="price-box">
+
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
 </div>
 
-<div class="checkout-goods-alert">
-
-</div>
+<script src="../static/plugins/mod.js"></script>
+<script type="text/javascript">
+    require(['../static/js/checkout'],function(checkoutObjJs){
+        checkoutObjJs.checkoutObj.init();
+    });
+</script>
 
 </body>
 </html>
