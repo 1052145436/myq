@@ -1,0 +1,128 @@
+@import "common";
+
+html,body{
+  width:100%;
+  height:100%;
+}
+
+.flash-result-w{
+  position:relative;
+  width:100%;
+  height:100%;
+  max-width:px2rem(750);
+  margin:0px auto;
+  background-color: #f9f9f9;
+
+  .flash-result-header{
+    position:relative;
+    width:100%;
+    height:px2rem(90);
+    background-color: #fff;
+    border-bottom:1px solid #f1f1f1;
+
+    .homePageBtn{
+      position:absolute;
+      width:px2rem(36);
+      height:px2rem(36);
+      top:50%;
+      right:px2rem(30);
+      margin-top:px2rem(-18);
+      img{
+        height:px2rem(36);
+        width:auto;
+        vertical-align: top;
+      }
+    }
+
+    .goBackBtn{
+      position:absolute;
+      display:block;
+      width:px2rem(20);
+      height:px2rem(38);
+      left:px2rem(30);
+      top:50%;
+      margin-top:px2rem(-19);
+      background-color: rgba(0,0,0,0);
+      img{
+        height:px2rem(38);
+        width:auto;
+        vertical-align: top;
+      }
+    }
+
+    p{
+      width:100%;
+      height:px2rem(90);
+      line-height:px2rem(90);
+      color:#272727;
+      text-align:center;
+      font-size:px2rem(24);
+      font-weight:bolder;
+    }
+  }
+
+  .flash-result-inner{
+    .result-img{
+      display:block;
+      width:px2rem(88);
+      height:auto;
+      margin:px2rem(80) auto;
+    }
+    p{
+      color:rgb(82,82,87);
+      font-size:px2rem(34);
+      line-height:px2rem(34);
+      margin-bottom:px2rem(34);
+      text-align:center;
+    }
+    ul{
+      padding-left:px2rem(180);
+      li{
+        padding:px2rem(10) 0px;
+        img{
+          width:px2rem(19);
+          height:auto;
+          vertical-align: middle;
+          margin-right:px2rem(10);
+        }
+        span{
+          font-size:px2rem(22);
+          line-height:px2rem(22);
+          color:rgb(110,110,114);
+          em{
+            color:rgb(82,82,87);
+          }
+        }
+      }
+    }
+    .flash-result-btn{
+      margin:px2rem(60) auto;
+      width:px2rem(416);
+      height:px2rem(60);
+      a{
+        display:block;
+        width:px2rem(180);
+        height:px2rem(60);
+        line-height:px2rem(60);
+        text-align:center;
+        font-size:px2rem(22);
+        color:rgb(82,82,87);
+        border:1px solid rgb(160,160,160);
+        -webkit-border-radius: px2rem(10);
+        -moz-border-radius: px2rem(10);
+        border-radius: px2rem(10);
+      }
+      .result-left-btn{
+        float:left;
+      }
+      .result-right-btn{
+        float:right;
+      }
+    }
+  }
+
+
+}
+
+.clearfix:after {content:"."; display:block; height:0; visibility:hidden; clear:both; }
+.clearfix { *zoom:1; }
