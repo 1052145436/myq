@@ -238,24 +238,16 @@ html,body{
                   position:relative;
                   padding:px2rem(10) 0px;
                   line-height:px2rem(32);
-                  .fa-heart-o,.fa-heart{
-                    font-size:px2rem(32);
-                    margin-left:px2rem(2);
-                  }
-                  .fa-heart-o{
-                    color:#4d4d4d;
-                  }
-                  .fa-heart{
-                    color:#e92662;
+
+                  .gray-heart,.red-heart{
+                    width:px2rem(30);
+                    height:auto;
                   }
                   span{
-                    position:relative;
-                    display:inline-block;
                     font-size:px2rem(18);
                     line-height:px2rem(32);
                     color:#434343;
                     margin-left:px2rem(10);
-                    top:px2rem(-4);
                   }
 
                   .shopping-car{
