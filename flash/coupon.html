@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>fis3_复合网</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta content="telephone=no" name="format-detection" />
+    <meta name="format-detection" content="email=no" />
+
+    <link rel="icon" href="./static/images/common/favicon.ico" mce_href="./static/images/common/favicon.ico" type="image/x-icon">
+    <meta name="hotcss" content="initial-dpr=1">
+    <meta name="hotcss" content="max-width=750">
+    <meta name="hotcss" content="design-width=750">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="../static/scss/coupon.scss"/>
+    <script src="../static/plugins/hotcss.js"></script><!--ignore-->
+</head>
+<body>
+
+<div class="flash-coupon-w">
+    <div class="flash-coupon-header">
+        <a href="javascript:history.go(-1);" class="goBackBtn">
+            <img src="https://img-ec.youcdn.net/0a/db/0adbd9fbd15876c2213d51521c7ed9bb.png!medium.jpg" alt="">
+        </a>
+        <p>Select Coupon</p>
+    </div>
+    <div class="flash-coupon-inner">
+        <div class="flash-coupon-nav" id="flash-coupon-nav">
+            <div class="current">Available</div>
+            <div>Unavailable</div>
+        </div>
+        <ul class="flash-coupon-ul" id="flash-coupon-ul">
+           <li>
+               <div class="coupon-img-box">
+                   <img src="https://img-ec.youcdn.net/70/a3/70a32e531a2f2b61fcad3adff827b335.png!medium.jpg" alt="" class="gray_coupon_img">
+                   <img src="https://img-ec.youcdn.net/85/59/85596f889fb8508d33281655a2e0c2b5.png!medium.jpg" alt="" class="canUse_coupon_img">
+               </div>
+               <div class="coupon-img-info">
+                   <img src="https://img-ec.youcdn.net/66/7d/667dbc25ff0602644c6e030b5fe31f80.png!medium.jpg" alt="">
+                   <h2>RM 20 OFF</h2>
+                   <p><span>满100元可用 | </span>For All Products</p>
+                   <p>Expires：2017-08-01~2018-08-01</p>
+               </div>
+           </li>
+            <li>
+                <div class="coupon-img-box">
+                    <img src="https://img-ec.youcdn.net/70/a3/70a32e531a2f2b61fcad3adff827b335.png!medium.jpg" alt="" class="gray_coupon_img">
+                    <img src="https://img-ec.youcdn.net/85/59/85596f889fb8508d33281655a2e0c2b5.png!medium.jpg" alt="" class="canUse_coupon_img">
+                </div>
+                <div class="coupon-img-info">
+                    <img src="https://img-ec.youcdn.net/66/7d/667dbc25ff0602644c6e030b5fe31f80.png!medium.jpg" alt="">
+                    <h2>RM 20 OFF</h2>
+                    <p><span>满100元可用 | </span>For All Products</p>
+                    <p>Expires：2017-08-01~2018-08-01</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<script src="../static/plugins/mod.js"></script>
+<script type="text/javascript">
+    require(['../static/js/coupon'],function(couponJs){
+        couponJs.couponObj.init();
+    });
+</script>
+
+</body>
+</html>
