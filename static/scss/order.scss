@@ -133,6 +133,9 @@ html,body{
     }
     .all-time-list{
       .one-time-list{
+        //margin-bottom:px2rem(10);
+        background-color: #fff;
+        padding-top:px2rem(10);
         .package-onload-box{
           position:relative;
           width:px2rem(600);
@@ -311,6 +314,26 @@ html,body{
               padding:px2rem(10) px2rem(30) px2rem(10) px2rem(0);
             }
           }
+        }
+      }
+    }
+    .flash-hasorder-footer{
+      position:fixed;
+      width:100%;
+      height:px2rem(70);
+      line-height:px2rem(70);
+      z-index:3;
+      background-color: #fff;
+      bottom:0;
+      left:0;
+      p{
+        color:rgb(82,82,87);
+        font-size:px2rem(22);
+        line-height:px2rem(70);
+        text-align:center;
+        a{
+          color:rgb(251,0,98);
+          border-bottom:1px solid rgb(251,0,98);
         }
       }
     }
