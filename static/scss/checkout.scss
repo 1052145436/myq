@@ -25,15 +25,15 @@ html,body{
       position:absolute;
       display:block;
       width:px2rem(20);
-      height:px2rem(40);
-      left:px2rem(33);
+      height:px2rem(38);
+      left:px2rem(30);
       top:50%;
-      margin-top:px2rem(-20);
+      margin-top:px2rem(-19);
       background-color: rgba(0,0,0,0);
-      i{
-        vertical-align:middle;
-        font-size:px2rem(20);
-        color:#272727;
+      img{
+        height:px2rem(38);
+        width:auto;
+        vertical-align: top;
       }
     }
 

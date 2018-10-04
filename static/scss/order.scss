@@ -25,16 +25,59 @@ html,body{
       position:absolute;
       display:block;
       width:px2rem(20);
-      height:px2rem(40);
-      left:px2rem(33);
+      height:px2rem(38);
+      left:px2rem(30);
+      top:50%;
+      margin-top:px2rem(-19);
+      background-color: rgba(0,0,0,0);
+      img{
+        height:px2rem(38);
+        width:auto;
+        vertical-align: top;
+      }
+    }
+
+    .homePageBtn{
+      position:absolute;
+      width:px2rem(36);
+      height:px2rem(36);
+      top:50%;
+      right:px2rem(122);
+      margin-top:px2rem(-18);
+      img{
+        height:px2rem(36);
+        width:auto;
+        vertical-align: top;
+      }
+    }
+
+    .shopCarBtn{
+      position:absolute;
+      width:px2rem(46);
+      height:px2rem(41);
+      right:px2rem(30);
       top:50%;
       margin-top:px2rem(-20);
-      background-color: rgba(0,0,0,0);
-      i{
-        width:px2rem(20);
+      img{
+        width:px2rem(46);
         height:auto;
-        font-size:px2rem(20);
-        color:#272727;
+        vertical-align: top;
+      }
+      span{
+        display:block;
+        position:absolute;
+        width:px2rem(24);
+        height:px2rem(24);
+        font-size:px2rem(12);
+        line-height:px2rem(24);
+        text-align:center;
+        right:px2rem(-4);
+        top:px2rem(-4);
+        color:#fff;
+        background-color: #fa0062;
+        -webkit-border-radius: px2rem(12);
+        -moz-border-radius: px2rem(12);
+        border-radius: px2rem(12);
       }
     }
 
