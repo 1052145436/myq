@@ -81,7 +81,7 @@ html,body{
           line-height:px2rem(36);
           font-weight:200;
         }
-        img{
+        .map-local-point{
           position:absolute;
           width:auto;
           height:px2rem(28);
@@ -89,12 +89,13 @@ html,body{
           top:50%;
           margin-top:px2rem(-14);
         }
-        i{
+        .map-right-angle{
           position:absolute;
-          color:#9b9b9b;
+          width:auto;
+          height:px2rem(20);
           right:px2rem(30);
           top:50%;
-          margin-top:px2rem(-12);
+          margin-top:px2rem(-10);
         }
       }
       .foot-bar{
@@ -288,7 +289,7 @@ html,body{
 
           .select-box{
             position:absolute;
-            right:px2rem(24);
+            right:0px;
             top:50%;
             height:px2rem(40);
             margin-top:px2rem(-24);
@@ -303,21 +304,16 @@ html,body{
               line-height:px2rem(14);
               color:#f70573;
               border:1px solid #fc0270;
-              margin-right:px2rem(30);
+              margin-right:px2rem(100);
             }
 
-            i{
-              font-size:px2rem(40);
-              line-height:px2rem(40);
-              font-weight:100;
-            }
-            .fa-check-circle{
-              color:#f9037e;
-              display:none;
-            }
-            .fa-circle-o{
-              color:#989898;
-              -webkit-text-stroke: 1px #fff;
+            .pay-select-img{
+              position:absolute;
+              width:px2rem(38);
+              height:px2rem(38);
+              right:px2rem(30);
+              top:50%;
+              margin-top:px2rem(-19);
             }
           }
         }
@@ -636,21 +632,8 @@ html,body{
                     position:absolute;
                     right:px2rem(10);
                     bottom:px2rem(10);
-                    width:px2rem(40);
-                    height:px2rem(40);
-                    img{
-                      width:100%;
-                      height:auto;
-                      vertical-align: top;
-                    }
-
-                    .fa-plus-circle{
-                      background-color: #fff;
-                      position:absolute;
-                      right:px2rem(-4);
-                      top:px2rem(-4);
-                      color:#e00;
-                    }
+                    width:auto;
+                    height:px2rem(41);
                   }
                 }
               }
