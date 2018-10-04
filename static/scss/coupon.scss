@@ -121,4 +121,28 @@ html,body{
       }
     }
   }
+  .flash-no-coupon{
+    display:none;
+    width:px2rem(400);
+    height:px2rem(340);
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:px2rem(-200);
+    margin-top:px2rem(-170);
+    text-align:center;
+
+    img{
+      width:px2rem(198);
+      height:auto;
+      vertical-align: top;
+    }
+    p{
+      color:rgb(154,154,154);
+      font-size:px2rem(24);
+      line-height:px2rem(24);
+      text-align:center;
+      margin-top:px2rem(30);
+    }
+  }
 }
