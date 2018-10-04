@@ -12,10 +12,11 @@ html,body{
   height:100%;
   max-width:px2rem(750);
   margin:0px auto;
-  background-color: #eee;
+  background-color: #fff;
 
   .flash-order-header{
     position:relative;
+    z-index:5;
     width:100%;
     height:px2rem(90);
     background-color: #fff;
@@ -93,7 +94,9 @@ html,body{
   }
 
   .flash-order-inner{
+    display:none;
     background-color: #fff;
+    padding-bottom:px2rem(50);
     .flash-search-box{
       padding:px2rem(60) px2rem(0);
       background-color: #fff;
@@ -239,41 +242,123 @@ html,body{
         }
       }
     }
+    .package-item-ul{
+      .package-item-li{
+        .package-item-head{
+          font-size:px2rem(26);
+          line-height:px2rem(26);
+          color:rgb(112,112,112);
+          padding:px2rem(30) px2rem(8);
+          border-bottom:1px solid rgb(229,229,229);
+          span{
+            float:right;
+            color:rgb(255,95,157);
+            margin-right:px2rem(30);
+          }
+        }
+        .package-idUl-list{
+          clear:both;
+          padding:px2rem(0) px2rem(30);
+          li{
+            padding:px2rem(26) 0px;
+            border-bottom:1px solid rgb(229,229,229);
+            .package-idImg-box{
+              width:30%;
+              height:px2rem(210);
+              overflow:hidden;
+              float:left;
+              text-align:left;
+              img{
+                width:100%;
+                height:auto;
+              }
+            }
+            .package-idTxt-box{
+              width:60%;
+              float:right;
+              padding:px2rem(20) 0px;
+              text-align:left;
+              p{
+                width:80%;
+                font-size:px2rem(24);
+                line-height:px2rem(32);
+                color:rgb(112,112,112);
+              }
+              div{
+                font-size:px2rem(20);
+                line-height:px2rem(24);
+                margin:px2rem(10) 0px;
+                color:rgb(181,181,181);
+              }
+              span{
+                color:rgb(112,112,112);
+                font-size:px2rem(26);
+                line-height:px2rem(30);
+              }
+            }
+          }
+        }
+        .package-item-total{
+          background-color: #fff;
+          font-size:px2rem(24);
+          line-height:px2rem(24);
+          color:rgb(112,112,112);
+          text-align:right;
+          text-align:right;
+          padding:px2rem(10) px2rem(30) px2rem(10) px2rem(0);
+        }
+      }
+    }
   }
 
-  .flash-no-order{
-    display:none;
-    position:absolute;
+  .flash-no-order-w{
+    position:fixed;
+    left:0;
+    bottom:0;
+    z-index:1;
+    width:100%;
+    height:100%;
     background-color: #eee;
-    width:px2rem(353);
-    height:auto;
-    text-align:center;
-    left:50%;
-    margin-left:px2rem(-176);
-    top:35%;
-    img{
-      display:block;
+    .no-order-mask{
+      position:absolute;
+      background-color: rgba(0,0,0,0.5);
+      left:0;
+      top:0;
+    }
+    .flash-no-order{
+      position:absolute;
+      background-color: #eee;
       width:px2rem(353);
       height:auto;
-      vertical-align: top;
-      margin-bottom:px2rem(18);
-    }
-    p{
-      width:px2rem(280);
-      color:#b6b6b6;
-      font-size:px2rem(16);
-      line-height:px2rem(36);
       text-align:center;
-      margin:0px auto px2rem(70) auto;
-    }
-    a{
-      color:#f90162;
-      font-size:px2rem(20);
+      left:50%;
+      margin-left:px2rem(-176);
+      top:35%;
+      img{
+        display:block;
+        width:px2rem(353);
+        height:auto;
+        vertical-align: top;
+        margin-bottom:px2rem(18);
+      }
+      p{
+        width:px2rem(280);
+        color:#b6b6b6;
+        font-size:px2rem(16);
+        line-height:px2rem(36);
+        text-align:center;
+        margin:0px auto px2rem(70) auto;
+      }
+      a{
+        color:#f90162;
+        font-size:px2rem(20);
+      }
     }
   }
 
   .flash-order-footer{
     position:fixed;
+    z-index: 3;
     width:100%;
     bottom:px2rem(22);
     left:0;
