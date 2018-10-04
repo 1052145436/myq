@@ -14,7 +14,7 @@ html,body{
   margin:0px auto;
   background-color: #f1f1f1;
 
-  .header{
+  .flash-checkout-header{
     position:relative;
     width:100%;
     height:px2rem(90);
@@ -48,7 +48,7 @@ html,body{
     }
   }
 
-  .checkout-inner{
+  .flash-checkout-inner{
     .address-list{
       position:relative;
       width:100%;
@@ -218,7 +218,7 @@ html,body{
                   color:#272727;
                   font-size:px2rem(18);
                   letter-spacing: px2rem(2);
-
+                  font-style:normal;
                 }
               }
 
@@ -402,6 +402,7 @@ html,body{
             }
             em{
               font-weight:800;
+              font-style:normal;;
             }
           }
         }
@@ -430,6 +431,7 @@ html,body{
           color:#f62800;
           right:px2rem(40);
           top:px2rem(16);
+          font-style: normal;
 
           i{
             margin-left:px2rem(10);
