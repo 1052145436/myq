@@ -10,14 +10,15 @@ var couponObj = {
             // 函数功能定义
             var commonObj = {
                 initUI:function(){
+                    var navIndex = 0;
                     $('#flash-coupon-nav>div').click(function(){
                         $('#flash-coupon-nav>div').each(function(){
                             $(this).removeClass('current');
                         });
                         $(this).addClass('current');
 
-                        var largeIndex = $(this).index();
-                        if(largeIndex == 0){
+                        navIndex = $(this).index();
+                        if(navIndex == 0){
                             $('.coupon-img-box').each(function(){
                                 $(this).children('.gray_coupon_img').hide();
                                 $(this).children('.canUse_coupon_img').show();
@@ -28,24 +29,27 @@ var couponObj = {
                                 $(this).children('.canUse_coupon_img').hide();
                             });
                         }
+
+                        $('#flash-coupon-ul>li').unbind();
+                        if(navIndex == 0){
+                            $('#flash-coupon-ul>li').click(function(){
+                                var selected = $(this).attr('data-selected');
+                                if(selected == 'true'){
+                                    selected = 'false'
+                                }else{
+                                    selected = 'true'
+                                }
+
+                                $(this).attr('data-selected',selected);
+
+                                if(selected == 'true'){
+                                    $(this).find('.select_coupon_img').show();
+                                }else{
+                                    $(this).find('.select_coupon_img').hide();
+                                }
+                            });
+                        }
                     })
-
-                    $('#flash-coupon-ul>li').click(function(){
-                        var selected = $(this).attr('data-selected');
-                        if(selected == 'true'){
-                            selected = 'false'
-                        }else{
-                            selected = 'true'
-                        }
-
-                        $(this).attr('data-selected',selected);
-
-                        if(selected == 'true'){
-                            $(this).find('.select_coupon_img').show();
-                        }else{
-                            $(this).find('.select_coupon_img').hide();
-                        }
-                    });
                 }
             }
             // 执行函数
