@@ -112,7 +112,7 @@ html,body{
         height:px2rem(88);
         background-color: #fff;
         p{
-          font-size:px2rem(30);
+          font-size:px2rem(22);
           line-height:px2rem(88);
           color:rgb(39,39,39);
           padding-left:px2rem(30);
@@ -126,9 +126,12 @@ html,body{
           top:50%;
           margin-top:px2rem(-17);
 
-          i{
-            color:#9b9b9b;
+          img{
+            width:px2rem(10);
+            height:auto;
+            vertical-align: middle;
             margin-left:px2rem(16);
+            margin-top:px2rem(-6);
             -webkit-transition:all 0.5s;
             -moz-transition:all 0.5s;
             -o-transition:all 0.5s;
@@ -174,7 +177,7 @@ html,body{
 
               h5{
                 width:70%;
-                font-size:px2rem(28);
+                font-size:px2rem(22);
                 line-height:px2rem(30);
                 color:rgb(39,39,39);
                 overflow: hidden;
@@ -190,7 +193,7 @@ html,body{
                 overflow: hidden;
                 text-overflow: ellipsis;
                 color:rgb(172,172,172);
-                font-size:px2rem(24);
+                font-size:px2rem(20);
                 line-height:px2rem(30);
                 margin:px2rem(12) px2rem(0);
               }
@@ -244,7 +247,7 @@ html,body{
       h3{
         padding:px2rem(30);
         color:rgb(39,39,39);
-        font-size:px2rem(24);
+        font-size:px2rem(18);
         line-height:px2rem(24);
         border-bottom:1px solid #f1f1f1;
       }
@@ -273,7 +276,7 @@ html,body{
             width:55%;
             float:left;
             h5{
-              font-size:px2rem(30);
+              font-size:px2rem(22);
               line-height:px2rem(40);
               color:rgb(39,39,39);
               font-weight:400;
@@ -298,12 +301,12 @@ html,body{
 
             span{
               display:inline-block;
-              padding:px2rem(8) px2rem(20);
-              -webkit-border-radius: px2rem(20);
-              -moz-border-radius: px2rem(20);
-              border-radius: px2rem(20);
-              font-size:px2rem(20);
-              line-height:px2rem(20);
+              padding:px2rem(8) px2rem(16);
+              -webkit-border-radius: px2rem(16);
+              -moz-border-radius: px2rem(16);
+              border-radius: px2rem(16);
+              font-size:px2rem(14);
+              line-height:px2rem(16);
               color:rgb(254,0,115);
               border:1px solid rgb(254,0,115);
               margin-right:px2rem(100);
@@ -333,18 +336,18 @@ html,body{
         .coup-title{
           width:100%;
           height:auto;
-          font-size:px2rem(30);
+          font-size:px2rem(22);
           line-height:px2rem(30);
           color:rgb(39,39,39);
 
           span{
             display:inline-block;
-            padding:px2rem(8) px2rem(20);
-            -webkit-border-radius: px2rem(20);
-            -moz-border-radius: px2rem(20);
-            border-radius: px2rem(20);
-            font-size:px2rem(20);
-            line-height:px2rem(20);
+            padding:px2rem(8) px2rem(16);
+            -webkit-border-radius: px2rem(16);
+            -moz-border-radius: px2rem(16);
+            border-radius: px2rem(16);
+            font-size:px2rem(14);
+            line-height:px2rem(16);
             color:rgb(254,0,115);
             border:1px solid rgb(254,0,115);
             margin-left:px2rem(10);
@@ -355,7 +358,7 @@ html,body{
           position:absolute;
           right:px2rem(30);
           color:#282828;
-          font-size:px2rem(30);
+          font-size:px2rem(22);
           line-height:px2rem(30);
           font-weight: 600;
           top:50%;
@@ -377,7 +380,7 @@ html,body{
             width:25%;
             height:auto;
             float:left;
-            font-size:px2rem(30);
+            font-size:px2rem(22);
             line-height:px2rem(30);
             color:rgb(39,39,39);
           }
@@ -402,7 +405,7 @@ html,body{
               color:#ff0068;
             }
             em{
-              font-size:px2rem(30);
+              font-size:px2rem(22);
               font-weight:800;
               font-style:normal;;
               color:rgb(39,39,39);
@@ -514,18 +517,18 @@ html,body{
           font-weight:600;
 
           span{
-            color:#fb2900;
-            margin:0px px2rem(20);
+            color:rgb(253,43,0);
+            margin:0px px2rem(10);
           }
 
         }
-        .fa-close{
+        img{
           position:absolute;
+          height:px2rem(24);
+          width:auto;
           right:px2rem(30);
-          top:px2rem(36);
-          font-size:px2rem(30);
-          color:#9b9b9b;
-          -webkit-text-stroke: 1px #fff;
+          top:50%;
+          margin-top:px2rem(-12);
         }
       }
 
