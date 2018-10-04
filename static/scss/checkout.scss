@@ -17,7 +17,7 @@ html,body{
   .flash-checkout-header{
     position:relative;
     width:100%;
-    height:px2rem(90);
+    height:px2rem(88);
     background-color: #fff;
     border-bottom:1px solid #f1f1f1;
 
@@ -39,11 +39,11 @@ html,body{
 
     p{
       width:100%;
-      height:px2rem(90);
-      line-height:px2rem(90);
-      color:#272727;
+      height:px2rem(88);
+      line-height:px2rem(88);
+      color:rgb(39,39,39);
       text-align:center;
-      font-size:px2rem(24);
+      font-size:px2rem(28);
       font-weight:bolder;
     }
   }
@@ -69,15 +69,15 @@ html,body{
         padding:px2rem(30) px2rem(80);
         background-color: #fff;
         h3{
-          color:#222;
+          color:rgb(39,39,39);
           font-weight:600;
           text-align:left;
-          font-size:px2rem(24);
+          font-size:px2rem(30);
           line-height:px2rem(44);
         }
         p{
-          color:#222;
-          font-size:px2rem(18);
+          color:rgb(39,39,39);
+          font-size:px2rem(24);
           line-height:px2rem(36);
           font-weight:200;
         }
@@ -112,19 +112,19 @@ html,body{
         height:px2rem(88);
         background-color: #fff;
         p{
-          font-size:px2rem(22);
+          font-size:px2rem(30);
           line-height:px2rem(88);
-          color:#282828;
+          color:rgb(39,39,39);
           padding-left:px2rem(30);
         }
         .checkout-show-plBtn{
           position:absolute;
-          font-size:px2rem(22);
-          height:px2rem(22);
+          font-size:px2rem(24);
+          height:px2rem(24);
           color:#414141;
           right:px2rem(30);
           top:50%;
-          margin-top:px2rem(-16);
+          margin-top:px2rem(-17);
 
           i{
             color:#9b9b9b;
@@ -174,9 +174,9 @@ html,body{
 
               h5{
                 width:70%;
-                font-size:px2rem(20);
+                font-size:px2rem(28);
                 line-height:px2rem(30);
-                color:#272727;
+                color:rgb(39,39,39);
                 overflow: hidden;
                 text-overflow: ellipsis;
                 display: -webkit-box;
@@ -189,8 +189,8 @@ html,body{
                 white-space: nowrap;
                 overflow: hidden;
                 text-overflow: ellipsis;
-                color:#acacac;
-                font-size:px2rem(17);
+                color:rgb(172,172,172);
+                font-size:px2rem(24);
                 line-height:px2rem(30);
                 margin:px2rem(12) px2rem(0);
               }
@@ -204,8 +204,8 @@ html,body{
                 line-height:px2rem(36);
 
                 span{
-                  font-size:px2rem(16);
-                  color:#f80476;
+                  font-size:px2rem(22);
+                  color:rgb(253,0,111);
                   strong{
                     font-weight:bolder;
                     font-size:px2rem(26);
@@ -213,10 +213,11 @@ html,body{
                   }
                 }
                 em{
+                  font-size:px2rem(24);
                   position:absolute;
                   right:0;
                   bottom:0;
-                  color:#272727;
+                  color:rgb(39,39,39);
                   font-size:px2rem(18);
                   letter-spacing: px2rem(2);
                   font-style:normal;
@@ -242,9 +243,9 @@ html,body{
       background-color: #fff;
       h3{
         padding:px2rem(30);
-        color:#989898;
-        font-size:px2rem(18);
-        line-height:px2rem(18);
+        color:rgb(39,39,39);
+        font-size:px2rem(24);
+        line-height:px2rem(24);
         border-bottom:1px solid #f1f1f1;
       }
       ul{
@@ -272,17 +273,18 @@ html,body{
             width:55%;
             float:left;
             h5{
-              font-size:px2rem(22);
-              line-height:px2rem(30);
-              color:#282828;
+              font-size:px2rem(30);
+              line-height:px2rem(40);
+              color:rgb(39,39,39);
               font-weight:400;
             }
             p{
               font-size:px2rem(20);
-              line-height:px2rem(30);
-              color:#9a9a9a;
+              line-height:px2rem(34);
+              color:rgb(153,153,153);
               span{
-                color:#ff0081;
+                font-size:px2rem(20);
+                color:rgb(253,0,111);
               }
             }
           }
@@ -296,14 +298,14 @@ html,body{
 
             span{
               display:inline-block;
-              padding:px2rem(8) px2rem(16);
-              -webkit-border-radius: px2rem(16);
-              -moz-border-radius: px2rem(16);
-              border-radius: px2rem(16);
-              font-size:px2rem(14);
-              line-height:px2rem(14);
-              color:#f70573;
-              border:1px solid #fc0270;
+              padding:px2rem(8) px2rem(20);
+              -webkit-border-radius: px2rem(20);
+              -moz-border-radius: px2rem(20);
+              border-radius: px2rem(20);
+              font-size:px2rem(20);
+              line-height:px2rem(20);
+              color:rgb(254,0,115);
+              border:1px solid rgb(254,0,115);
               margin-right:px2rem(100);
             }
 
@@ -331,20 +333,20 @@ html,body{
         .coup-title{
           width:100%;
           height:auto;
-          font-size:px2rem(22);
-          line-height:px2rem(22);
-          color:#232323;
+          font-size:px2rem(30);
+          line-height:px2rem(30);
+          color:rgb(39,39,39);
 
           span{
             display:inline-block;
-            padding:px2rem(8) px2rem(16);
-            -webkit-border-radius: px2rem(16);
-            -moz-border-radius: px2rem(16);
-            border-radius: px2rem(16);
-            font-size:px2rem(14);
-            line-height:px2rem(14);
-            color:#f70573;
-            border:1px solid #fc0270;
+            padding:px2rem(8) px2rem(20);
+            -webkit-border-radius: px2rem(20);
+            -moz-border-radius: px2rem(20);
+            border-radius: px2rem(20);
+            font-size:px2rem(20);
+            line-height:px2rem(20);
+            color:rgb(254,0,115);
+            border:1px solid rgb(254,0,115);
             margin-left:px2rem(10);
           }
         }
@@ -353,14 +355,17 @@ html,body{
           position:absolute;
           right:px2rem(30);
           color:#282828;
-          font-size:px2rem(22);
-          line-height:px2rem(22);
-          font-weight: 500;
+          font-size:px2rem(30);
+          line-height:px2rem(30);
+          font-weight: 600;
           top:50%;
-          margin-top:px2rem(-11);
-          i{
-            margin-left:10px;
-            color:#9a9a9a;
+          margin-top:px2rem(-15);
+          img{
+            margin-left:px2rem(6);
+            height:px2rem(24);
+            width:auto;
+            vertical-align:middle;
+            margin-top:px2rem(-4);
           }
         }
       }
@@ -372,20 +377,20 @@ html,body{
             width:25%;
             height:auto;
             float:left;
-            font-size:px2rem(22);
-            line-height:px2rem(22);
-            color:#232323;
+            font-size:px2rem(30);
+            line-height:px2rem(30);
+            color:rgb(39,39,39);
           }
           .cost{
             width:75%;
             float:right;
             text-align:right;
             color:#282828;
-            font-size:px2rem(22);
-            line-height:px2rem(22);
+            font-size:px2rem(20);
+            line-height:px2rem(20);
             label{
               display:inline-block;
-              color:#fc2d00;
+              color:rgb(253,43,0);
               background-color: #faefcf;
               padding:px2rem(6) px2rem(10);
               -webkit-border-radius: px2rem(4);
@@ -397,8 +402,10 @@ html,body{
               color:#ff0068;
             }
             em{
+              font-size:px2rem(30);
               font-weight:800;
               font-style:normal;;
+              color:rgb(39,39,39);
             }
           }
         }
@@ -440,8 +447,8 @@ html,body{
         padding:px2rem(30) px2rem(20);
         p{
           line-height:px2rem(30);
-          font-size:px2rem(16);
-          color:#272727;
+          font-size:px2rem(22);
+          color:rgb(39,39,39);
           text-align:center;
           margin-bottom:px2rem(26);
         }
@@ -451,7 +458,7 @@ html,body{
           line-height:px2rem(100);
           text-align:center;
           color:#fff;
-          font-size:px2rem(24);
+          font-size:px2rem(30);
           background:-webkit-linear-gradient(left,#eb295f,#eb295e);
           background:-o-linear-gradient(right,#eb295f,#eb295e);
           background:-moz-linear-gradient(right,#eb295f,#eb295e);
