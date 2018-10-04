@@ -12,7 +12,7 @@ html,body{
   height:100%;
   max-width:px2rem(750);
   margin:0px auto;
-  background-color: #f1f1f1;
+  background-color: #eee;
 
   .flash-order-header{
     position:relative;
@@ -66,18 +66,18 @@ html,body{
       span{
         display:block;
         position:absolute;
-        width:px2rem(24);
-        height:px2rem(24);
+        width:px2rem(26);
+        height:px2rem(26);
         font-size:px2rem(12);
-        line-height:px2rem(24);
+        line-height:px2rem(26);
         text-align:center;
         right:px2rem(-4);
         top:px2rem(-4);
         color:#fff;
         background-color: #fa0062;
-        -webkit-border-radius: px2rem(12);
-        -moz-border-radius: px2rem(12);
-        border-radius: px2rem(12);
+        -webkit-border-radius: px2rem(13);
+        -moz-border-radius: px2rem(13);
+        border-radius: px2rem(13);
       }
     }
 
@@ -94,6 +94,52 @@ html,body{
 
   .flash-order-inner{
     margin-top:px2rem(24);
+  }
+
+  .flash-no-order{
+    display:none;
+    position:absolute;
+    background-color: #eee;
+    width:px2rem(353);
+    height:auto;
+    text-align:center;
+    left:50%;
+    margin-left:px2rem(-176);
+    top:35%;
+    img{
+      display:block;
+      width:px2rem(353);
+      height:auto;
+      vertical-align: top;
+      margin-bottom:px2rem(18);
+    }
+    p{
+      width:px2rem(280);
+      color:#b6b6b6;
+      font-size:px2rem(16);
+      line-height:px2rem(36);
+      text-align:center;
+      margin:0px auto px2rem(70) auto;
+    }
+    a{
+      color:#f90162;
+      font-size:px2rem(20);
+    }
+  }
+
+  .flash-order-footer{
+    position:fixed;
+    width:100%;
+    bottom:px2rem(22);
+    left:0;
+    color:rgb(82,82,87);
+    font-size:px2rem(22);
+    line-height:px2rem(22);
+    text-align:center;
+    a{
+      color:rgb(251,0,98);
+      border-bottom:1px solid rgb(251,0,98);
+    }
   }
 
 
