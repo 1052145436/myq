@@ -29,6 +29,20 @@ html,body{
       }
     }
 
+    .homePageBtn{
+      position:absolute;
+      width:px2rem(36);
+      height:px2rem(36);
+      top:50%;
+      right:px2rem(30);
+      margin-top:px2rem(-18);
+      img{
+        height:px2rem(36);
+        width:auto;
+        vertical-align: top;
+      }
+    }
+
     p{
       width:100%;
       height:px2rem(90);
