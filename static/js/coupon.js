@@ -30,6 +30,11 @@ var couponObj = {
                             });
                         }
 
+                        updateConponList();
+                    })
+
+                    updateConponList();
+                    function updateConponList(){
                         $('#flash-coupon-ul>li').unbind();
                         if(navIndex == 0){
                             $('#flash-coupon-ul>li').click(function(){
@@ -48,8 +53,13 @@ var couponObj = {
                                     $(this).find('.select_coupon_img').hide();
                                 }
                             });
+                        }else{
+                            $('#flash-coupon-ul>li').each(function(){
+                                $(this).attr('data-selected',false);
+                                $(this).find('.select_coupon_img').hide();
+                            });
                         }
-                    })
+                    }
                 }
             }
             // 执行函数
