@@ -119,6 +119,159 @@ html,body{
         float:right;
       }
     }
+
+    .you-will-like-w{
+      width:100%;
+      padding:0px px2rem(30);
+      background-color: #fff;
+      margin-top:px2rem(30);
+
+      .flash-result-like{
+        position:relative;
+        width:100%;
+        height:px2rem(34);
+        text-align:center;
+        margin:0px auto;
+
+        .result-like-bar{
+          position:absolute;
+          width:100%;
+          height:1px;
+          background-color: rgb(251,0,98);
+          top:50%;
+          left:0;
+        }
+
+        span{
+          position:relative;
+          z-index: 2;
+          font-size:px2rem(34);
+          line-height:px2rem(34);
+          background-color: #fff;
+          padding:0px px2rem(30);
+          color:rgb(251,0,98);
+        }
+      }
+
+      .like-list-box{
+        width:100%;
+        height:100%;
+        overflow:auto;
+        .add-more-ul{
+          width:100%;
+          padding:px2rem(30);
+          .add-more-li{
+            position:relative;
+            width:50%;
+            float:left;
+            overflow:hidden;
+            margin-bottom:px2rem(40);
+
+            .goods-discut-box{
+              position:absolute;
+              z-index:2;
+              top:0;
+              right:px2rem(33);
+              width:px2rem(60);
+              height:px2rem(60);
+              .img-box{
+                position:absolute;
+                width:px2rem(60);
+                height:px2rem(60);
+                right:0;
+                top:0;
+
+                img{
+                  width:px2rem(60);
+                  height:auto;
+                  vertical-align: top;
+                }
+              }
+
+              .discut-txt{
+                position:relative;
+                width:100%;
+                font-size:px2rem(18);
+                line-height:px2rem(36);
+                text-align:center;
+                color:#fff;
+              }
+            }
+
+            .item{
+              position:relative;
+              width:80%;
+              margin-left:10%;
+              margin-right:10%;
+              overflow:hidden;
+              .goods-img-box{
+                position:relative;
+                width:100%;
+                height:px2rem(280);
+                line-height:px2rem(280);
+                overflow:hidden;
+                text-align:center;
+                img{
+                  width:100%;
+                  height:auto;
+                  vertical-align: top;
+                }
+              }
+
+              .goods-price-box{
+                padding:px2rem(10) 0px;
+                .price{
+                  font-size:px2rem(18);
+                  line-height:px2rem(26);
+                  span{
+                    color:#e52a5f;
+                    font-weight:600;
+                  }
+                  del{
+                    color:#9a9a9a;
+                    font-weight:100;
+                    margin-left:px2rem(16);
+                  }
+                }
+
+                .cart{
+                  position:relative;
+                  padding:px2rem(10) 0px;
+                  line-height:px2rem(32);
+                  .fa-heart-o,.fa-heart{
+                    font-size:px2rem(32);
+                    margin-left:px2rem(2);
+                  }
+                  .fa-heart-o{
+                    color:#4d4d4d;
+                  }
+                  .fa-heart{
+                    color:#e92662;
+                  }
+                  span{
+                    position:relative;
+                    display:inline-block;
+                    font-size:px2rem(18);
+                    line-height:px2rem(32);
+                    color:#434343;
+                    margin-left:px2rem(10);
+                    top:px2rem(-4);
+                  }
+
+                  .shopping-car{
+                    position:absolute;
+                    right:px2rem(10);
+                    bottom:px2rem(10);
+                    width:auto;
+                    height:px2rem(41);
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 
 
