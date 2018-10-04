@@ -29,6 +29,23 @@ var couponObj = {
                             });
                         }
                     })
+
+                    $('#flash-coupon-ul>li').click(function(){
+                        var selected = $(this).attr('data-selected');
+                        if(selected == 'true'){
+                            selected = 'false'
+                        }else{
+                            selected = 'true'
+                        }
+
+                        $(this).attr('data-selected',selected);
+
+                        if(selected == 'true'){
+                            $(this).find('.select_coupon_img').show();
+                        }else{
+                            $(this).find('.select_coupon_img').hide();
+                        }
+                    });
                 }
             }
             // 执行函数
