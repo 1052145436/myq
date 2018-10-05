@@ -273,7 +273,7 @@ html,body{
           }
 
           .pay-desc-box{
-            width:55%;
+            width:58%;
             float:left;
             h5{
               font-size:px2rem(22);
@@ -300,16 +300,21 @@ html,body{
             margin-top:px2rem(-24);
 
             span{
-              display:inline-block;
-              padding:px2rem(8) px2rem(16);
-              -webkit-border-radius: px2rem(16);
-              -moz-border-radius: px2rem(16);
-              border-radius: px2rem(16);
+              position:absolute;
+              display:block;
+              width:px2rem(100);
+              height:px2rem(30);
+              line-height:px2rem(30);
+              text-align:center;
+              -webkit-border-radius: px2rem(15);
+              -moz-border-radius: px2rem(15);
+              border-radius: px2rem(15);
               font-size:px2rem(12);
-              line-height:px2rem(14);
               color:rgb(254,0,115);
               border:1px solid rgb(254,0,115);
-              margin-right:px2rem(100);
+              right:px2rem(96);
+              top:50%;
+              margin-top:px2rem(-15);
             }
 
             .pay-select-img{
@@ -341,7 +346,7 @@ html,body{
 
           span{
             display:inline-block;
-            padding:px2rem(8) px2rem(16);
+            padding:px2rem(8) px2rem(10);
             -webkit-border-radius: px2rem(16);
             -moz-border-radius: px2rem(16);
             border-radius: px2rem(16);
