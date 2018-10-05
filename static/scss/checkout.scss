@@ -48,6 +48,7 @@ html,body{
   }
 
   .flash-checkout-inner{
+    padding-bottom:px2rem(300);
     .address-list{
       position:relative;
       width:100%;
@@ -325,7 +326,6 @@ html,body{
     }
     .coupon-box{
       background-color: #fff;
-      padding-bottom:px2rem(270);
       .coupon-selected-box{
         clear:both;
         border-bottom:1px solid #f1f1f1;
@@ -383,18 +383,22 @@ html,body{
       }
       ul{
         li{
+          position:relative;
+          width:100%;
+          height:auto;
           clear:both;
           padding:px2rem(30);
           .title{
-            width:25%;
-            height:auto;
-            float:left;
+            position:absolute;
+            height:px2rem(20);
             font-size:px2rem(22);
             line-height:px2rem(30);
             color:rgb(39,39,39);
+            left:px2rem(30);
+            top:px2rem(30);
           }
           .cost{
-            width:75%;
+            width:100%;
             float:right;
             text-align:right;
             color:#282828;
@@ -432,26 +436,14 @@ html,body{
       .checkout-coupon-tip{
         position:relative;
         background-color: #fff3cd;
-        text-align:left;
+        text-align:center;
         font-size:px2rem(18);
         line-height:px2rem(18);
-        padding:px2rem(18) 0 px2rem(18) px2rem(40);
+        padding:px2rem(18) 0;
         color:#25261e;
         span{
           color:#f62800;
           margin:auto px2rem(14);
-        }
-        em{
-          position:absolute;
-          color:#f62800;
-          right:px2rem(40);
-          top:px2rem(16);
-          font-style: normal;
-
-          i{
-            margin-left:px2rem(10);
-            color:#fb2d05;
-          }
         }
       }
       .sure-pay-box{
