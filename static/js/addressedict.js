@@ -4,7 +4,7 @@
 * @Last Modified by:   Marte
 * @Last Modified time: 2016-08-11 16:54:54
 */
-var addressObj = {
+var addressedictObj = {
     init:function(){
         require(['./jquery'],function($){
             // 函数功能定义
@@ -18,4 +18,4 @@ var addressObj = {
         });
     }
 }
-exports.addressObj = addressObj;
+exports.addressedictObj = addressedictObj;
