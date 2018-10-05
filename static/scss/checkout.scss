@@ -469,10 +469,10 @@ html,body{
           text-align:center;
           color:#fff;
           font-size:px2rem(30);
-          background:-webkit-linear-gradient(left,#eb295f,#eb295e);
-          background:-o-linear-gradient(right,#eb295f,#eb295e);
-          background:-moz-linear-gradient(right,#eb295f,#eb295e);
-          background:linear-gradient(to right,#eb295f,#eb295e);
+          background:-webkit-linear-gradient(left,rgb(253,0,111),rgb(235,67,95));
+          background:-o-linear-gradient(right,rgb(253,0,111),rgb(235,67,95));
+          background:-moz-linear-gradient(right,rgb(253,0,111),rgb(235,67,95));
+          background:linear-gradient(to right,rgb(253,0,111),rgb(235,67,95));
           -webkit-border-radius: px2rem(20);
           -moz-border-radius: px2rem(20);
           border-radius: px2rem(20);
