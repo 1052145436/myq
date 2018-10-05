@@ -76,9 +76,10 @@ html,body{
       text-align:center;
     }
     ul{
-      padding-left:px2rem(180);
       li{
+        width:70%;
         padding:px2rem(10) 0px;
+        margin:0px auto;
         img{
           width:px2rem(19);
           height:auto;
@@ -97,7 +98,7 @@ html,body{
     }
     .flash-result-btn{
       margin:px2rem(60) auto;
-      width:px2rem(416);
+      width:70%;
       height:px2rem(60);
       a{
         display:block;
