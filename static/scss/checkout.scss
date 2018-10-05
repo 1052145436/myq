@@ -257,7 +257,7 @@ html,body{
           border-bottom:1px solid #f1f1f1;
           clear:both;
 
-          .img-box{
+          .pay-img-box{
             width:15%;
             height:px2rem(60);
             line-height:px2rem(60);
@@ -271,27 +271,27 @@ html,body{
             }
           }
 
-          .desc-box{
+          .pay-desc-box{
             width:55%;
             float:left;
             h5{
               font-size:px2rem(22);
-              line-height:px2rem(40);
+              line-height:px2rem(38);
               color:rgb(39,39,39);
               font-weight:400;
             }
             p{
               font-size:px2rem(20);
-              line-height:px2rem(34);
+              line-height:px2rem(30);
               color:rgb(153,153,153);
               span{
-                font-size:px2rem(20);
+                font-size:px2rem(12);
                 color:rgb(253,0,111);
               }
             }
           }
 
-          .select-box{
+          .pay-select-box{
             position:absolute;
             right:0px;
             top:50%;
@@ -304,8 +304,8 @@ html,body{
               -webkit-border-radius: px2rem(16);
               -moz-border-radius: px2rem(16);
               border-radius: px2rem(16);
-              font-size:px2rem(14);
-              line-height:px2rem(16);
+              font-size:px2rem(12);
+              line-height:px2rem(14);
               color:rgb(254,0,115);
               border:1px solid rgb(254,0,115);
               margin-right:px2rem(100);
@@ -345,8 +345,8 @@ html,body{
             -webkit-border-radius: px2rem(16);
             -moz-border-radius: px2rem(16);
             border-radius: px2rem(16);
-            font-size:px2rem(14);
-            line-height:px2rem(16);
+            font-size:px2rem(12);
+            line-height:px2rem(14);
             color:rgb(254,0,115);
             border:1px solid rgb(254,0,115);
             margin-left:px2rem(10);
