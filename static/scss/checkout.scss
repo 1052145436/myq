@@ -657,7 +657,7 @@ html,body{
     height:100%;
     left:0;
     top:0;
-    //display:none;
+    display:none;
     .mask-bg{
       position:absolute;
       width:100%;
@@ -796,6 +796,132 @@ html,body{
           -moz-border-radius: px2rem(44);
           border-radius: px2rem(44);
           margin:px2rem(38) auto;
+        }
+      }
+    }
+  }
+
+  .phone-check-alert{
+    position:fixed;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+
+    .mask-bg{
+      position:absolute;
+      width:100%;
+      height:100%;
+      left:0;
+      top:0;
+      background:rgba(0,0,0,0.5);
+    }
+
+    .phone-check-con{
+      position:absolute;
+      width:80%;
+      height:auto;
+      left:10%;
+      top:30%;
+      background-color: #fff;
+      -webkit-border-radius: 0.2rem;
+      -moz-border-radius: 0.2rem;
+      border-radius: 0.2rem;
+
+      h1{
+        font-size:px2rem(24);
+        line-height:px2rem(80);
+        border-bottom:1px solid #f1f1f1;
+        text-align:center;
+        color:#222;
+      }
+
+      .phone-check-detail{
+        width:90%;
+        margin:0px auto;
+        p{
+          padding:px2rem(14) 0px;
+          font-size:px2rem(18);
+          line-height:px2rem(30);
+          color:#666;
+        }
+
+        .phone-input-box{
+          position:relative;
+          width:100%;
+          height:px2rem(60);
+          margin-top:px2rem(20);
+          .sms-input-box{
+            position:relative;
+            width:66%;
+            height:px2rem(60);
+            border:1px solid #f1f1f1;
+            float:left;
+
+            label{
+              display:block;
+              width:40%;
+              text-align:right;
+              color:#ccc;
+              font-size:px2rem(18);
+              line-height:px2rem(48);
+              float:left;
+            }
+            input{
+              display:block;
+              width:60%;
+              height:px2rem(48);
+              float:right;
+              font-size:px2rem(18);
+              line-height:px2rem(48);
+              text-indent: px2rem(15);
+              border:none;
+            }
+          }
+          .req-sms-btn{
+            width:30%;
+            height:px2rem(60);
+            line-height:px2rem(60);
+            float:right;
+            color:#fff;
+            text-align:center;
+            background-color: rgb(253,0,111);
+          }
+
+        }
+
+        .vertify-code{
+          display:block;
+          width:100%;
+          height:auto;
+          font-size:px2rem(18);
+          line-height:px2rem(18);
+          padding:px2rem(16) 0px;
+          text-indent: px2rem(15);
+          border:1px solid #f1f1f1;
+          margin:px2rem(30) auto;
+        }
+      }
+
+      .phone-check-foot{
+        width:100%;
+        height:px2rem(80);
+        border:1px solid #f1f1f1;
+        background-color: #fff;
+        div{
+          width:49%;
+          height:px2rem(80);
+          line-height:px2rem(80);
+          text-align:center;
+        }
+        .float-left{
+          float:left;
+          color:#666;
+          border-right:1px solid #f1f1f1;
+        }
+        .float-right{
+          float:right;
+          color:#00eeaa;
         }
       }
     }
