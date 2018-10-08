@@ -885,7 +885,10 @@ html,body{
             float:right;
             color:#fff;
             text-align:center;
-            background-color: rgb(253,0,111);
+            background:-webkit-linear-gradient(left,rgb(253,0,111),rgb(235,67,95));
+            background:-o-linear-gradient(right,rgb(253,0,111),rgb(235,67,95));
+            background:-moz-linear-gradient(right,rgb(253,0,111),rgb(235,67,95));
+            background:linear-gradient(to right,rgb(253,0,111),rgb(235,67,95));
           }
 
         }
