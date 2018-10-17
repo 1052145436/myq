@@ -843,7 +843,7 @@ html,body{
           padding:px2rem(14) 0px;
           font-size:px2rem(18);
           line-height:px2rem(30);
-          color:#666;
+          color:#888;
         }
 
         .phone-input-box{
@@ -851,6 +851,7 @@ html,body{
           width:100%;
           height:px2rem(60);
           margin-top:px2rem(20);
+
           .sms-input-box{
             position:relative;
             width:66%;
@@ -864,24 +865,33 @@ html,body{
               text-align:right;
               color:#ccc;
               font-size:px2rem(18);
-              line-height:px2rem(48);
+              line-height:px2rem(58);
               float:left;
             }
             input{
+              position:absolute;
               display:block;
               width:60%;
-              height:px2rem(48);
-              float:right;
+              height:px2rem(60);
               font-size:px2rem(18);
-              line-height:px2rem(48);
+              line-height:px2rem(58);
               text-indent: px2rem(15);
+              right:0;
+              top:0;
               border:none;
+              color:#888;
+              padding:0;
+              background:none;
+              margin:0;
+            }
+            input::-webkit-input-placeholder {
+              color:#888;
             }
           }
           .req-sms-btn{
             width:30%;
             height:px2rem(60);
-            line-height:px2rem(60);
+            line-height:px2rem(58);
             float:right;
             color:#fff;
             text-align:center;
@@ -903,6 +913,10 @@ html,body{
           text-indent: px2rem(15);
           border:1px solid #f1f1f1;
           margin:px2rem(30) auto;
+          color:#888;
+        }
+        .vertify-code::-webkit-input-placeholder {
+          color:#888;
         }
       }
 
@@ -924,12 +938,11 @@ html,body{
         }
         .float-right{
           float:right;
-          color:#00eeaa;
+          color:#00ff90;
         }
       }
     }
   }
-  
 }
 
 .clearfix:after {content:"."; display:block; height:0; visibility:hidden; clear:both; }
