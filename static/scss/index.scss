@@ -400,5 +400,91 @@ html,body{
         background-color: #b41234;
       }
     }
+    .likes-list-box{
+      background-color: #fff;
+
+      ul{
+        clear:both;
+        width:97%;
+        margin-left:3%;
+        background-color: #fff;
+        padding:px2rem(25) 0px;
+
+        li{
+          position:relative;
+          width:45%;
+          height:auto;
+          margin-right:5%;
+          background-color: #fff;
+          margin-bottom:px2rem(20);
+          float:left;
+
+          .cut-off-box{
+            position:absolute;
+            width:px2rem(60);
+            height:px2rem(48);
+            right:0;
+            top:0;
+            z-index:5;
+
+            img{
+              position:absolute;
+              width:100%;
+              height:auto;
+              left:0;
+              top:0;
+            }
+            p{
+              position:relative;
+              line-height:px2rem(42);
+              color:#fff;
+              font-size:px2rem(20);
+              text-align: center;
+            }
+          }
+          .img-box{
+            position:relative;
+            z-index:1;
+            height:px2rem(360);
+            vertical-align: middle;
+            overflow:hidden;
+            img{
+              vertical-align: middle;
+              width:100%;
+              height:auto;
+            }
+          }
+          .price-box{
+            span{
+              font-size:px2rem(30);
+              line-height:px2rem(40);
+              font-weight:800;
+              color:#fd006f;
+            }
+            em{
+              float:right;
+
+              img{
+                width:px2rem(32);
+                height:auto;
+              }
+
+              strong{
+                color:#7d7d7d;
+                font-size:px2rem(24);
+                line-height:px2rem(32);
+              }
+            }
+            del{
+              display:block;
+              color:#b2b2b2;
+              font-size:px2rem(22);
+              line-height:px2rem(32);
+              text-align:left;
+            }
+          }
+        }
+      }
+    }
   }
 }
