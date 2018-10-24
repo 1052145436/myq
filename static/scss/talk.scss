@@ -1,0 +1,154 @@
+@import "common";
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(248,248,248);
+}
+
+.user-talk-wap {
+  position:relative;
+  width: 100%;
+  height: 100%;
+  min-width: px2rem(750);
+  background-color: rgb(248,248,248);
+
+  .user-talk-inner {
+    position: relative;
+    .talk-info-con {
+      padding:0px px2rem(30);
+      h1 {
+        font-size:px2rem(22);
+        line-height:px2rem(22);
+        padding-top:px2rem(30);
+        text-align:center;
+        color:#999999;
+      }
+      .talk-day-ul {
+        .one-talk-li {
+          clear:both;
+          width:100%;
+          height:auto;
+          padding-top:px2rem(40);
+          .msg-common-head {
+            width:10%;
+            height: px2rem(70);
+            -webkit-border-radius: px2rem(10);
+            -moz-border-radius: px2rem(10);
+            border-radius: px2rem(10);
+            border: 1px solid #e9e9e9;
+            background-color: #f9f9f9;
+            overflow: hidden;
+            img {
+              vertical-align: top;
+              width: 100%;
+              height: auto;
+            }
+          }
+          .msg-common-box {
+            width:68%;
+
+            h2 {
+              font-size: px2rem(24);
+              line-height: px2rem(46);
+              margin: 0px;
+              padding: 0px;
+            }
+            .msg-common-say {
+              font-size: px2rem(28);
+              line-height: px2rem(40);
+              -webkit-border-radius: px2rem(10);
+              -moz-border-radius: px2rem(10);
+              border-radius: px2rem(10);
+              padding:px2rem(20);
+            }
+          }
+        }
+
+        .left-man-talk{
+          .msg-common-head{
+            float:left;
+            margin-right:px2rem(30);
+          }
+          .msg-common-box{
+            float:left;
+            h2{
+              text-align: left;
+            }
+
+            .msg-common-say{
+              border: 1px solid #e9e9e9;
+              background-color: #fff;
+              color:#272727;
+            }
+          }
+        }
+        .right-man-talk{
+          .msg-common-head{
+            float:right;
+            margin-left:px2rem(30);
+
+          }
+          .msg-common-box{
+            float:right;
+            h2{
+              text-align: right;
+            }
+            .msg-common-say{
+              border: 1px solid #eb2d68;
+              background-color: #eb2d68;
+              color:#fff;
+            }
+          }
+        }
+      }
+    }
+    .send-msg-con{
+      position:fixed;
+      width:100%;
+      height:px2rem(98);
+      background-color: #f1f1f1;
+      left:0;
+      bottom:0;
+      border-top:1px solid #e5e5e5;
+      .send-msg-inner{
+        position:relative;
+        width:100%;
+        height:px2rem(62);
+        line-height:px2rem(62);
+        position:absolute;
+        left:0;
+        top:50%;
+        margin-top:px2rem(-31);
+        padding:0px px2rem(30);
+
+        .send-msg-input{
+          display:block;
+          width:90%;
+          padding:0px;
+          margin:0px;
+          height:px2rem(62);
+          line-height:px2rem(70);
+          background-color: #fff;
+          border:1px solid #e5e5e5;
+          -webkit-border-radius: px2rem(10);
+          -moz-border-radius: px2rem(10);
+          border-radius: px2rem(10);
+          font-size:px2rem(24);
+          color:#d1d1d1;
+          float:left;
+          text-indent:px2rem(30);
+        }
+        .send-msg-btn{
+          width:10%;
+          height:px2rem(62);
+          line-heigth:px2rem(62);
+          text-align:right;
+          float:right;
+          font-size:px2rem(24);
+          color:#272727;
+        }
+      }
+    }
+  }
+}
